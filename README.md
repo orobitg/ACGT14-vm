@@ -1,11 +1,12 @@
 ACGT14 VM - Nextflow 
 ======================
 
+Virtual machine for the Nextflow tutorial
 
 Prerequisites 
 ---------------
 
-This project contains a Vagrant environment configuration file 
+This project contains a Vagrant configuration file 
 
 In order to use it, you will need to install the following pieces of software: 
 
@@ -16,16 +17,18 @@ In order to use it, you will need to install the following pieces of software:
 Setup 
 --------
 
-Clone the sara-coffee virtual machine (this project) in a convenient location
+Clone the ACGT14 virtual machine (this project) in a convenient location by using the command:
 
     $ git clone git@github.com:nextflow-io/ACGT14-vm.git
 
 Change to the `ACGT14-vm` folder and launch vagrant:
     
     $ cd ACGT14-vm/
-    $  vagrant up  
+    $ vagrant up  
+    
 
-The first time you run it, it will automatically download the virtual machine by this tutorial. It may take some minutes to complete, so be patient. 
+The first time you run it, it will automatically download the virtual machine required by the tutorial. 
+It may take some minutes to complete, so be patient. 
 
 When it boots up and the configuration steps are terminated, login into the VM instance:
 
