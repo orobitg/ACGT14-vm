@@ -17,9 +17,11 @@ In order to use it, you will need to install the following pieces of software:
 Setup 
 --------
 
+To Clone the ACGT14 virtual machine, you have
 Clone the ACGT14 virtual machine (this project) in a convenient location by using the command:
 
-    $ git clone git@github.com:nextflow-io/ACGT14-vm.git
+    $ git clone https://github.com/nextflow-io/ACGT14-vm.git
+
 
 Change to the `ACGT14-vm` folder and launch vagrant:
     
